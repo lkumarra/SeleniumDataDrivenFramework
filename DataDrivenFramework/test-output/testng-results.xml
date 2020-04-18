@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[<a target = '_blank' href =addCustomer.png>Screenshot</a>]]>
+    </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="3155" started-at="2020-04-18T13:03:18 IST" finished-at="2020-04-18T13:03:22 IST">
+  <suite name="Data Driven" duration-ms="3047" started-at="2020-04-18T18:24:27 IST" finished-at="2020-04-18T18:24:30 IST">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="3155" started-at="2020-04-18T13:03:18 IST" finished-at="2020-04-18T13:03:22 IST">
+    <test name="Test" duration-ms="3047" started-at="2020-04-18T18:24:27 IST" finished-at="2020-04-18T18:24:30 IST">
       <class name="com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@2a3b5b47]" name="setUp" is-config="true" duration-ms="21015" started-at="2020-04-18T13:02:57 IST" finished-at="2020-04-18T13:03:18 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@130e116b]" name="setUp" is-config="true" duration-ms="14138" started-at="2020-04-18T18:24:13 IST" finished-at="2020-04-18T18:24:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@2a3b5b47]" name="loginAsBankManager" duration-ms="3116" started-at="2020-04-18T13:03:18 IST" finished-at="2020-04-18T13:03:22 IST">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@130e116b]" name="loginAsBankManager" duration-ms="419" started-at="2020-04-18T18:24:27 IST" finished-at="2020-04-18T18:24:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
-        <test-method status="PASS" signature="testDown()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@2a3b5b47]" name="testDown" is-config="true" duration-ms="646" started-at="2020-04-18T13:03:22 IST" finished-at="2020-04-18T13:03:22 IST">
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@130e116b]" name="testDown" is-config="true" duration-ms="675" started-at="2020-04-18T18:24:30 IST" finished-at="2020-04-18T18:24:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDown -->
       </class> <!-- com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest -->
       <class name="com.w2a.DataDrivenFramework.testCases.AddCustomerTest">
-        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@55b699ef]" name="addCustomer" duration-ms="0" started-at="2020-04-18T13:03:22 IST" data-provider="getData" finished-at="2020-04-18T13:03:22 IST">
+        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@e383572]" name="addCustomer" duration-ms="953" started-at="2020-04-18T18:24:28 IST" data-provider="getData" finished-at="2020-04-18T18:24:29 IST">
           <params>
             <param index="0">
               <value>
@@ -38,11 +41,21 @@
                 <![CDATA[246761.0]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.w2a.DataDrivenFramework.testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:13)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at com.w2a.DataDrivenFramework.testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,11 +86,14 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a target = '_blank' href =addCustomer.png>Screenshot</a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
       </class> <!-- com.w2a.DataDrivenFramework.testCases.AddCustomerTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- Data Driven Basics -->
+    </test> <!-- Test -->
+  </suite> <!-- Data Driven -->
 </testng-results>

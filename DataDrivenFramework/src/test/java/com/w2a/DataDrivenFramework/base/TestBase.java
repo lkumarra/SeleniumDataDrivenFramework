@@ -15,10 +15,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.w2a.DataDrivenFramework.utilities.ExcelReader;
+import com.w2a.DataDrivenFramework.utilities.ExtentManager;
 
 public class TestBase {
 
@@ -30,12 +35,14 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream configFile;
 	public static FileInputStream orFile;
-	public Logger log;
+	public static Logger log = LogManager.getLogger(TestBase.class);
 	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir")+"/src/test/resources/Excel/TestData.xlsx");
+	public static WebDriverWait wait;
+	public ExtentReports reports = ExtentManager.getInstance();
+	public static ExtentTest test;
 
 	@BeforeSuite
 	public void setUp() {
-		log = LogManager.getLogger(getClass().getName());
 		if (driver == null) {
 			try {
 				configFile = new FileInputStream(
@@ -81,10 +88,11 @@ public class TestBase {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")),
 					TimeUnit.SECONDS);
+			wait = new WebDriverWait(driver, 5);
 		}
 
 	}
-
+	
 	/**
 	 * Verify webelement is present on page.
 	 * 
