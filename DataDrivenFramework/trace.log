@@ -1,0 +1,7 @@
+2020-04-18 11:19:24 TestBase [DEBUG] Config file loaded !!!
+2020-04-18 11:19:24 TestBase [DEBUG] OR file loaded !!!
+2020-04-18 11:19:30 TestBase [DEBUG] Chrome launched !!!
+2020-04-18 11:19:32 TestBase [DEBUG] Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+2020-04-18 11:19:36 LoginTest [DEBUG] Inside Login Test
+2020-04-18 11:19:39 LoginTest [DEBUG] Login successfully executed
+2020-04-18 11:19:40 TestBase [DEBUG] Test Execution completed
