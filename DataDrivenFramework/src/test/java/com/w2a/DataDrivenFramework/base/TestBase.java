@@ -74,19 +74,18 @@ public class TestBase {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			try {
-				OR.load(orFile);
-				log.debug("OR file loaded !!!");
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
 			if (System.getenv(browser) != null && !System.getenv(browser).isEmpty()) {
 				browser = System.getenv(browser);
 			} else {
 				browser = config.getProperty("browser");
 			}
 			config.setProperty("browser", browser);
+			try {
+				OR.load(orFile);
+				log.debug("OR file loaded !!!");
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 
 			if (config.getProperty("browser").equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
