@@ -70,3 +70,54 @@
 2020-04-19 15:50:20 TestBase [DEBUG] Test case: Open Account Test is started
 2020-04-19 15:50:24 TestBase [DEBUG] Test case: Open account Test is executed
 2020-04-19 15:50:25 TestBase [DEBUG] Test Execution completed
+2020-04-19 16:07:56 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:07:56 TestBase [DEBUG] OR file loaded !!!
+2020-04-19 16:08:02 TestBase [DEBUG] Chrome launched !!!
+2020-04-19 16:08:08 TestBase [DEBUG] Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+2020-04-19 16:08:13 BankManagerLoginTest [DEBUG] Inside Login Test
+2020-04-19 16:08:24 BankManagerLoginTest [DEBUG] Login successfully executed
+2020-04-19 16:08:25 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:09:10 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:09:10 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:09:48 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:09:48 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:09:58 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:09:59 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:09:59 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:09:59 TestBase [DEBUG] Test case: Open Account Test is started
+2020-04-19 16:10:03 TestBase [DEBUG] Test case: Open account Test is executed
+2020-04-19 16:10:04 TestBase [DEBUG] Test Execution completed
+2020-04-19 16:10:33 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:10:33 TestBase [DEBUG] OR file loaded !!!
+2020-04-19 16:10:39 TestBase [DEBUG] Chrome launched !!!
+2020-04-19 16:10:42 TestBase [DEBUG] Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+2020-04-19 16:10:46 BankManagerLoginTest [DEBUG] Inside Login Test
+2020-04-19 16:10:47 BankManagerLoginTest [DEBUG] Login successfully executed
+2020-04-19 16:10:47 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:10:48 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:10:48 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:10:49 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:10:49 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:10:50 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:10:50 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:10:51 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:10:51 TestBase [DEBUG] Test case: Open Account Test is started
+2020-04-19 16:10:55 TestBase [DEBUG] Test case: Open account Test is executed
+2020-04-19 16:10:56 TestBase [DEBUG] Test Execution completed
+2020-04-19 16:14:53 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:14:53 TestBase [DEBUG] OR file loaded !!!
+2020-04-19 16:14:59 TestBase [DEBUG] Chrome launched !!!
+2020-04-19 16:15:10 TestBase [DEBUG] Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+2020-04-19 16:15:15 BankManagerLoginTest [DEBUG] Inside Login Test
+2020-04-19 16:15:26 BankManagerLoginTest [DEBUG] Login successfully executed
+2020-04-19 16:15:27 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:16:13 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:16:13 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:16:55 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:16:55 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:17:40 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:17:40 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 16:17:41 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 16:17:41 TestBase [DEBUG] Test case: Open Account Test is started
+2020-04-19 16:17:45 TestBase [DEBUG] Test case: Open account Test is executed
+2020-04-19 16:17:46 TestBase [DEBUG] Test Execution completed

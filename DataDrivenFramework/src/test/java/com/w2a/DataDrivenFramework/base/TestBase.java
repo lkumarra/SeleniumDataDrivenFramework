@@ -48,6 +48,7 @@ public class TestBase {
 	public ExtentReports reports = ExtentManager.getInstance();
 	public static ExtentTest test;
 	static WebElement dropdown;
+	public static String browser;
 
 	/**
 	 * 
@@ -79,6 +80,14 @@ public class TestBase {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+
+			if (System.getenv(browser) != null && !System.getenv(browser).isEmpty()) {
+				browser = System.getenv(browser);
+			} else {
+				browser = config.getProperty("browser");
+			}
+			config.setProperty("browser", browser);
+
 			if (config.getProperty("browser").equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
 						System.getProperty("user.dir") + "/src/test/resources/Executables/chromedriver.exe");
