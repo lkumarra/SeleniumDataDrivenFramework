@@ -1,61 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="1" failed="0" ignored="4" total="11" passed="6">
   <reporter-output>
-    <line>
-      <![CDATA[<a target = '_blank' href =addCustomer.png>Screenshot</a>]]>
-    </line>
   </reporter-output>
-  <suite name="Data Driven" duration-ms="3047" started-at="2020-04-18T18:24:27 IST" finished-at="2020-04-18T18:24:30 IST">
+  <suite name="Data Driven" duration-ms="9260" started-at="2020-04-19T15:47:44 IST" finished-at="2020-04-19T15:47:53 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3047" started-at="2020-04-18T18:24:27 IST" finished-at="2020-04-18T18:24:30 IST">
+    <test name="Test" duration-ms="9260" started-at="2020-04-19T15:47:44 IST" finished-at="2020-04-19T15:47:53 IST">
       <class name="com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@130e116b]" name="setUp" is-config="true" duration-ms="14138" started-at="2020-04-18T18:24:13 IST" finished-at="2020-04-18T18:24:27 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@66c61024]" name="setUp" is-config="true" duration-ms="12661" started-at="2020-04-19T15:47:31 IST" finished-at="2020-04-19T15:47:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@130e116b]" name="loginAsBankManager" duration-ms="419" started-at="2020-04-18T18:24:27 IST" finished-at="2020-04-18T18:24:28 IST">
+        <test-method status="PASS" signature="bankManagerLoginTest(java.lang.reflect.Method)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@66c61024]" name="bankManagerLoginTest" duration-ms="651" started-at="2020-04-19T15:47:44 IST" finished-at="2020-04-19T15:47:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAsBankManager -->
-        <test-method status="PASS" signature="testDown()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@130e116b]" name="testDown" is-config="true" duration-ms="675" started-at="2020-04-18T18:24:30 IST" finished-at="2020-04-18T18:24:31 IST">
+        </test-method> <!-- bankManagerLoginTest -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest@66c61024]" name="testDown" is-config="true" duration-ms="727" started-at="2020-04-19T15:47:53 IST" finished-at="2020-04-19T15:47:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDown -->
       </class> <!-- com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest -->
-      <class name="com.w2a.DataDrivenFramework.testCases.AddCustomerTest">
-        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@e383572]" name="addCustomer" duration-ms="953" started-at="2020-04-18T18:24:28 IST" data-provider="getData" finished-at="2020-04-18T18:24:29 IST">
+      <class name="com.w2a.DataDrivenFramework.testCases.OpenAccountTest">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.OpenAccountTest@c9d0d6]" name="openAccountTest" duration-ms="4196" started-at="2020-04-19T15:47:48 IST" data-provider="dp" finished-at="2020-04-19T15:47:53 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Lavendra]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rajput]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[246761.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Customer added successfully]]>
+                <![CDATA[{currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+      </class> <!-- com.w2a.DataDrivenFramework.testCases.OpenAccountTest -->
+      <class name="com.w2a.DataDrivenFramework.testCases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@61fe30]" name="addCustomerTest" duration-ms="932" started-at="2020-04-19T15:47:45 IST" data-provider="dp" finished-at="2020-04-19T15:47:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@61fe30]" name="addCustomerTest" duration-ms="2" started-at="2020-04-19T15:47:46 IST" data-provider="dp" finished-at="2020-04-19T15:47:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[Skipping the test case as run mode for set data is NO]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.fail(Assert.java:102)
-at com.w2a.DataDrivenFramework.testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:29)
+              <![CDATA[org.testng.SkipException: Skipping the test case as run mode for set data is NO
+at com.w2a.DataDrivenFramework.testCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:24)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,13 +97,43 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
-            <line>
-              <![CDATA[<a target = '_blank' href =addCustomer.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- addCustomer -->
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@61fe30]" name="addCustomerTest" duration-ms="819" started-at="2020-04-19T15:47:46 IST" data-provider="dp" finished-at="2020-04-19T15:47:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@61fe30]" name="addCustomerTest" duration-ms="738" started-at="2020-04-19T15:47:47 IST" data-provider="dp" finished-at="2020-04-19T15:47:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.DataDrivenFramework.testCases.AddCustomerTest@61fe30]" name="addCustomerTest" duration-ms="711" started-at="2020-04-19T15:47:48 IST" data-provider="dp" finished-at="2020-04-19T15:47:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
       </class> <!-- com.w2a.DataDrivenFramework.testCases.AddCustomerTest -->
     </test> <!-- Test -->
   </suite> <!-- Data Driven -->

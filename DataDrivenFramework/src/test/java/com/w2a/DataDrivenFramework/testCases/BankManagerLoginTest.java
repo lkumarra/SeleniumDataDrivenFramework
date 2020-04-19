@@ -1,5 +1,7 @@
 package com.w2a.DataDrivenFramework.testCases;
 
+import java.lang.reflect.Method;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -12,13 +14,11 @@ public class BankManagerLoginTest extends TestBase {
 	public static Logger log = LogManager.getLogger(BankManagerLoginTest.class);
 
 	@Test
-	public void loginAsBankManager() {
-		
+	public void bankManagerLoginTest(Method m) {
 		log.debug("Inside Login Test");
-		driver.findElement(By.cssSelector(OR.getProperty("bmlBtn"))).click();
-		Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCusBtn"))));
+		click("bmlBtn_CSS");
+		Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCusBtn_CSS"))));
 		log.debug("Login successfully executed");
-		
 	}
 
 }

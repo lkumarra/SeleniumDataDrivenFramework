@@ -12,7 +12,7 @@
         <methods>
           <include name="setUp"/>
           <include name="testDown"/>
-          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="addCustomerTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.w2a.DataDrivenFramework.testCases.AddCustomerTest -->
     </classes>

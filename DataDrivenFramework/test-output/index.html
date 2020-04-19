@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Data_Driven">
-              <span class="suite-name border-failed">Data Driven</span>
+              <span class="suite-name border-skipped">Data Driven</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Data_Driven" class="hide-methods failed suite-Data_Driven"> (hide)</a> <!-- hide-methods failed suite-Data_Driven -->
-                      <a href="#" panel-name="suite-Data_Driven" class="show-methods failed suite-Data_Driven"> (show)</a> <!-- show-methods failed suite-Data_Driven -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Data_Driven" class="hide-methods skipped suite-Data_Driven"> (hide)</a> <!-- hide-methods skipped suite-Data_Driven -->
+                      <a href="#" panel-name="suite-Data_Driven" class="show-methods skipped suite-Data_Driven"> (show)</a> <!-- show-methods skipped suite-Data_Driven -->
                     </span>
-                    <div class="method-list-content failed suite-Data_Driven">
+                    <div class="method-list-content skipped suite-Data_Driven">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" hash-for-method="addCustomer(Lavendra, Rajput, 246761.0, Customer added successfully)">addCustomer(Lavendra, Rajput, 246761.0, Customer added successfully)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" hash-for-method="addCustomerTest({postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successful...)">addCustomerTest({postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successful...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Data_Driven -->
+                    </div> <!-- method-list-content skipped suite-Data_Driven -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +116,32 @@
                     <div class="method-list-content passed suite-Data_Driven">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest" hash-for-method="loginAsBankManager">loginAsBankManager</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" hash-for-method="addCustomerTest({postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully...)">addCustomerTest({postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" hash-for-method="addCustomerTest({postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successf...)">addCustomerTest({postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successf...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" hash-for-method="addCustomerTest({postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added success...)">addCustomerTest({postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added success...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" hash-for-method="addCustomerTest({postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfull...)">addCustomerTest({postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfull...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest" hash-for-method="bankManagerLoginTest(public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lan...)">bankManagerLoginTest(public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lan...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven" title="com.w2a.DataDrivenFramework.testCases.OpenAccountTest" hash-for-method="openAccountTest({currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully})">openAccountTest({currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Data_Driven -->
@@ -131,27 +156,83 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Data_Driven" class="panel Data_Driven">
-          <div class="suite-Data_Driven-class-failed">
+          <div class="suite-Data_Driven-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.w2a.DataDrivenFramework.testCases.AddCustomerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addCustomer(Lavendra, Rajput, 246761.0, Customer added successfully)">
-                  </a> <!-- addCustomer(Lavendra, Rajput, 246761.0, Customer added successfully) -->
-                  <span class="method-name">addCustomer</span>
-                  <span class="parameters">(Lavendra, Rajput, 246761.0, Customer added successfully)</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at com.w2a.DataDrivenFramework.testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:29)
+                  <a name="addCustomerTest({postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successful...)">
+                  </a> <!-- addCustomerTest({postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successful...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successfully})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test case as run mode for set data is NO
+	at com.w2a.DataDrivenFramework.testCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:24)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 29 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Data_Driven-class-failed -->
+          </div> <!-- suite-Data_Driven-class-skipped -->
+          <div class="suite-Data_Driven-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.DataDrivenFramework.testCases.OpenAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountTest({currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully})">
+                  </a> <!-- openAccountTest({currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully}) -->
+                  <span class="method-name">openAccountTest</span>
+                  <span class="parameters">({currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven-class-passed -->
+          <div class="suite-Data_Driven-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.DataDrivenFramework.testCases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully...)">
+                  </a> <!-- addCustomerTest({postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successf...)">
+                  </a> <!-- addCustomerTest({postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successf...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successfully})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added success...)">
+                  </a> <!-- addCustomerTest({postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added success...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added successfully})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfull...)">
+                  </a> <!-- addCustomerTest({postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfull...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfully})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven-class-passed -->
           <div class="suite-Data_Driven-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -160,9 +241,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginAsBankManager">
-                  </a> <!-- loginAsBankManager -->
-                  <span class="method-name">loginAsBankManager</span>
+                  <a name="bankManagerLoginTest(public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lan...)">
+                  </a> <!-- bankManagerLoginTest(public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lan...) -->
+                  <span class="method-name">bankManagerLoginTest</span>
+                  <span class="parameters">(public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,6 +268,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest&quot;/&gt;
       &lt;class name=&quot;com.w2a.DataDrivenFramework.testCases.AddCustomerTest&quot;/&gt;
+      &lt;class name=&quot;com.w2a.DataDrivenFramework.testCases.OpenAccountTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Data Driven --&gt;
@@ -199,7 +282,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,20 +308,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addCustomer')
-data.setCell(0, 2, 'com.w2a.DataDrivenFramework.testCases.AddCustomerTest')
-data.setCell(0, 3, 953);
+data.setCell(0, 1, 'openAccountTest')
+data.setCell(0, 2, 'com.w2a.DataDrivenFramework.testCases.OpenAccountTest')
+data.setCell(0, 3, 4196);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginAsBankManager')
-data.setCell(1, 2, 'com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest')
-data.setCell(1, 3, 419);
+data.setCell(1, 1, 'addCustomerTest')
+data.setCell(1, 2, 'com.w2a.DataDrivenFramework.testCases.AddCustomerTest')
+data.setCell(1, 3, 932);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addCustomerTest')
+data.setCell(2, 2, 'com.w2a.DataDrivenFramework.testCases.AddCustomerTest')
+data.setCell(2, 3, 819);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addCustomerTest')
+data.setCell(3, 2, 'com.w2a.DataDrivenFramework.testCases.AddCustomerTest')
+data.setCell(3, 3, 738);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addCustomerTest')
+data.setCell(4, 2, 'com.w2a.DataDrivenFramework.testCases.AddCustomerTest')
+data.setCell(4, 3, 711);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'bankManagerLoginTest')
+data.setCell(5, 2, 'com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest')
+data.setCell(5, 3, 651);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addCustomerTest')
+data.setCell(6, 2, 'com.w2a.DataDrivenFramework.testCases.AddCustomerTest')
+data.setCell(6, 3, 2);
 window.suiteTableData['Data_Driven']= { tableData: data, tableDiv: 'times-div-Data_Driven'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Data_Driven">
               </div> <!-- times-div-Data_Driven -->
             </div> <!-- times-div -->
@@ -249,19 +352,22 @@ return data;
             <span class="header-content">Reporter output for Data Driven</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addCustomer(Lavendra, Rajput, 246761.0, Customer added successfully)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a target = '_blank' href =addCustomer.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Data_Driven" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.w2a.DataDrivenFramework.testCases.OpenAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">testDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.w2a.DataDrivenFramework.testCases.AddCustomerTest</span>
               <div class="ignored-methods-div">
@@ -285,24 +391,45 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">loginAsBankManager</span>
-                <span class="method-start">14187 ms</span>
+                <span class="method-name">bankManagerLoginTest(public void com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest.bankManagerLoginTest(java.lan...)</span>
+                <span class="method-start">12741 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.w2a.DataDrivenFramework.testCases.AddCustomerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addCustomer(Lavendra, Rajput, 246761.0, Customer added successfully)</span>
-                <span class="method-start">15311 ms</span>
+                <span class="method-name">addCustomerTest({postcode=246761.0, lastname=Rajput, runmode=Y, firstname=Lavendra, alertText=Customer added success...)</span>
+                <span class="method-start">13978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest({postcode=246761.0, lastname=Singh, runmode=N, firstname=Yuvraj, alertText=Customer added successful...)</span>
+                <span class="method-start">14971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest({postcode=246761.0, lastname=Singh, runmode=Y, firstname=Mohan, alertText=Customer added successfull...)</span>
+                <span class="method-start">15042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest({postcode=246761.0, lastname=Rani, runmode=Y, firstname=Rekha, alertText=Customer added successfully...)</span>
+                <span class="method-start">15938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest({postcode=246761.0, lastname=Shekhawat, runmode=Y, firstname=Vani, alertText=Customer added successf...)</span>
+                <span class="method-start">16809 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.DataDrivenFramework.testCases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openAccountTest({currency=Rupee, customer=Lavendra Rajput, alertText=Account created successfully})</span>
+                <span class="method-start">17621 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.w2a.DataDrivenFramework.testCases.BankManagerLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">testDown</span>
-                <span class="method-start">17232 ms</span>
+                <span class="method-start">21985 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
