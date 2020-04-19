@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="3.346">
+  <properties />
+  
+            <testcase name="addCustomerTest" time="0.0" classname="com.w2a.DataDrivenFramework.testCases.AddCustomerTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="addCustomerTest" time="0.770" classname="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.863" classname="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.781" classname="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.925" classname="com.w2a.DataDrivenFramework.testCases.AddCustomerTest" />
+      
+</testsuite>
