@@ -121,3 +121,27 @@
 2020-04-19 16:17:41 TestBase [DEBUG] Test case: Open Account Test is started
 2020-04-19 16:17:45 TestBase [DEBUG] Test case: Open account Test is executed
 2020-04-19 16:17:46 TestBase [DEBUG] Test Execution completed
+2020-04-19 16:42:47 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:42:47 TestBase [DEBUG] OR file loaded !!!
+2020-04-19 16:43:30 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:43:30 TestBase [DEBUG] OR file loaded !!!
+2020-04-19 16:46:04 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:54:48 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 16:59:33 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 17:01:12 TestBase [DEBUG] Config file loaded !!!
+2020-04-19 17:01:12 TestBase [DEBUG] OR file loaded !!!
+2020-04-19 17:01:18 TestBase [DEBUG] Chrome launched !!!
+2020-04-19 17:01:21 TestBase [DEBUG] Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+2020-04-19 17:01:25 BankManagerLoginTest [DEBUG] Inside Login Test
+2020-04-19 17:01:26 BankManagerLoginTest [DEBUG] Login successfully executed
+2020-04-19 17:01:26 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 17:01:28 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 17:01:28 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 17:01:29 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 17:01:29 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 17:01:30 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 17:01:30 AddCustomerTest [DEBUG] TestCase Add New Customer Started
+2020-04-19 17:01:30 AddCustomerTest [DEBUG] TestCase Add New Customer Executed
+2020-04-19 17:01:30 TestBase [DEBUG] Test case: Open Account Test is started
+2020-04-19 17:01:34 TestBase [DEBUG] Test case: Open account Test is executed
+2020-04-19 17:01:35 TestBase [DEBUG] Test Execution completed

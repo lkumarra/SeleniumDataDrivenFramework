@@ -74,8 +74,8 @@ public class TestBase {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			if (System.getenv(browser) != null && !System.getenv(browser).isEmpty()) {
-				browser = System.getenv(browser);
+			if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+				browser = System.getenv("browser");
 			} else {
 				browser = config.getProperty("browser");
 			}
