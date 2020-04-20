@@ -25,7 +25,6 @@ public class OpenAccountTest extends TestBase {
 			click("curOptPo_CSS");
 		}
 		click("proBtn_CSS");
-		Thread.sleep(3000);
 		wait.until(ExpectedConditions.alertIsPresent());
 		Assert.assertTrue(getAlertTextAndAccept().contains(data.get("alertText")));
 		log.debug("Test case: Open account Test is executed");

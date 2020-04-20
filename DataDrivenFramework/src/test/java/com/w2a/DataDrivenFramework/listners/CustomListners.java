@@ -68,14 +68,14 @@ public class CustomListners extends TestBase implements ITestListener, ISuiteLis
 	}
 
 	public void onStart(ISuite suite) {
+		// TODO Auto-generated method stub
 
 	}
 
 	public void onFinish(ISuite suite) {
-		
 		MonitoringMail mail = new MonitoringMail();
 		String messageBody = null;
-		 
+
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
 					+ ":8080/job/DataDrivenFramework/TestReports/";
@@ -83,7 +83,7 @@ public class CustomListners extends TestBase implements ITestListener, ISuiteLis
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	
+
 		try {
 			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
 		} catch (AddressException e) {
