@@ -31,6 +31,8 @@ import com.w2a.DataDrivenFramework.utilities.ExcelReader;
 import com.w2a.DataDrivenFramework.utilities.ExtentManager;
 import com.w2a.DataDrivenFramework.utilities.TestUtil;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestBase {
 
 	/**
@@ -41,7 +43,7 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream configFile;
 	public static FileInputStream orFile;
-	public static Logger log = LogManager.getLogger(TestBase.class);
+	public static Logger log = LogManager.getLogger(TestBase.class.getName());
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "/src/test/resources/Excel/TestData.xlsx");
 	public static WebDriverWait wait;
@@ -88,18 +90,18 @@ public class TestBase {
 			}
 
 			if (config.getProperty("browser").equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver",
-						System.getProperty("user.dir") + "/src/test/resources/Executables/chromedriver.exe");
+				WebDriverManager.chromedriver().setup();
 				System.setProperty("webdriver.chrome.silentOutput", "true");
 				driver = new ChromeDriver();
 				log.debug("Chrome launched !!!");
 			} else if (config.getProperty("browser").equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.gecko.driver",
-						System.getProperty("user.dir") + "/src/test/resources/Executables/geckodriver.exe");
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 			} else if (config.getProperty("browser").equalsIgnoreCase("ie")) {
-				System.setProperty("webdriver.ie.driver",
-						System.getProperty("user.dir") + "/src/test/resources/Executables/IEDriverServer.exe");
+				WebDriverManager.iedriver().setup();
+				driver = new InternetExplorerDriver();
+			} else if (config.getProperty("browser").equalsIgnoreCase("edge")) {
+				WebDriverManager.edgedriver().setup();
 				driver = new InternetExplorerDriver();
 			}
 			driver.get(config.getProperty("testsiteurl"));
